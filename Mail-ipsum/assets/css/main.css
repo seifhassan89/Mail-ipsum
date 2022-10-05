@@ -1,0 +1,433 @@
+/* header */
+header {
+    height: 72px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+}
+
+header .header-logo {
+    width: 324px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-logo .header-logo-img {
+    width: 222px;
+}
+
+header .header-search {
+    margin-inline-start: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .header-search input {
+    border-radius: 3px;
+    border: none;
+    width: calc(474px - 26px);
+    height: calc(40px - 22px);
+    padding: 11px 13px 11px 37px;
+}
+
+header .header-search .material-symbols-outlined {
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+header .header-search input::placeholder {
+    color: #C5C5C5;
+}
+
+header .header-right-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-inline-end: 25px;
+}
+
+header .header-right-section .header-manu {
+    margin-inline-start: 12px;
+}
+
+header .header-right-section .header-user-name {
+    margin-inline-start: 42px;
+}
+
+header .header-right-section .header-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-right-section .header-icon-wrapper div.hasnotification:after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #F9B52E;
+    position: absolute;
+    top: 19%;
+    left: 11%;
+    transform: translateY(-50%);
+}
+
+header .header-right-section .header-icon-wrapper div:nth-of-type(2) {
+    margin: 0px 26px;
+}
+
+/* aside */
+section.aside-section {
+    width: 324px;
+    min-height: calc(100vh - 72px);
+    display: inline-block;
+}
+
+section.aside-section div.aside-section-CTA {
+    height: 98px;
+}
+
+section.aside-section div.aside-section-CTA button {
+    border: none;
+    width: 222px;
+    Height: 56px;
+    border-radius: 5px;
+}
+
+/* aside nav */
+section.aside-section nav .navbar-nav .nav-item {
+    height: 35px;
+    transition: all 1s ease-in-out;
+}
+
+section.aside-section nav .navbar-nav .nav-item:hover {
+    background: rgb(45, 152, 152);
+    background: linear-gradient(90deg, rgba(45, 152, 152, 1) 0%, rgba(56, 167, 167, 1) 100%);
+    cursor: pointer;
+}
+
+section.aside-section nav .navbar-nav .nav-item.active {
+    position: relative;
+    cursor: unset;
+    background: rgb(45, 152, 152);
+    background: linear-gradient(90deg, rgba(45, 152, 152, 1) 0%, rgba(56, 167, 167, 1) 100%);
+}
+
+section.aside-section nav .navbar-nav .nav-item.active::before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    border: 1px solid transparent;
+    background-color: #F9B52E;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section.aside-section nav .navbar-nav .nav-item.active::after {
+    content: '2';
+    padding: 0px 6px;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #F9B52E;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    right: 8%;
+}
+
+section.aside-section nav .img-holder {
+    width: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.aside-section nav a {
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+section.aside-section nav a:hover {
+    color: #fff;
+}
+
+section.aside-section nav .navbar-nav .nav-item.active a {
+    cursor: default;
+}
+
+section.aside-section nav .nav-divider {
+    height: 1px;
+    width: 284px;
+    margin: 20px auto;
+    background: #B8B8B8;
+}
+
+/* start main section */
+.mainSection {
+    margin: 26px 25px 0px 24px;
+    width: 72vw;
+    display: inline-block;
+}
+
+.mainSection .welcommingSection {
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.mainSection .welcommingSection div.col-7 {
+    padding-inline-start: 24px;
+}
+
+
+.mainSection table th {
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.mainSection table {
+    border-collapse: separate;
+    border-spacing: 0 3px;
+    font-size: 15px;
+}
+
+.mainSection table tr {
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.mainSection table thead {
+    border-color: transparent;
+    border-style: hidden;
+}
+
+.mainSection table thead tr {
+    border-color: transparent;
+    border-style: hidden;
+}
+
+.mainSection table tr {
+    border-color: transparent;
+    border-style: hidden;
+}
+
+.mainSection table tr td:first-of-type {
+    width: 100px;
+}
+
+.mainSection table tr td:nth-of-type(2) {
+    width: 165px;
+}
+
+.mainSection table tr td:nth-of-type(3) {
+    width: 400px;
+}
+
+.mainSection table tr td:nth-of-type(4) {
+    width: 185px;
+}
+
+.mainSection table tr.rowHasNotification td {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+.mainSection table tr td:nth-of-type(2) span.name {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.mainSection table tr.rowHasNotification td:nth-of-type(2) span.name {
+    position: relative;
+    display: inline-block;
+}
+
+.mainSection table tr.rowHasNotification td:nth-of-type(2) span.name::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #F9B52E;
+    position: absolute;
+    top: 10px;
+    left: -30px;
+}
+
+.mainSection table thead tr th {
+    margin-bottom: 20px;
+}
+
+.mainSection table td {
+    display: table-cell;
+    align-items: center;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+
+.mainSection table tr:nth-of-type(even) {
+    margin: 3px 0px;
+}
+
+.mainSection table tr:nth-last-of-type() {
+    margin: 0px !important;
+}
+
+/* start table deatials section */
+.mainSection .table-details {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.mainSection .table-details .sectionLeft {
+    width: 35%;
+}
+
+.mainSection .table-details .sectionRight {
+    width: 65%;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.mainSection .table-details .mail {
+    Height: 90px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    margin: 3px 0px;
+    padding: 20px 27px 15px 27px;
+    display: flex;
+}
+
+.mainSection .table-details .mail:first-of-type {
+    margin-top: 0px;
+}
+
+.mainSection .table-details .mail:last-of-type {
+    margin-bottom: 0px;
+}
+
+.mainSection .table-details .mail.hasAttachemnt {
+    Height: 152px;
+}
+
+.mainSection .table-details .mail.hasAttachemnt.active {
+    background-color: #E4F5F5;
+}
+
+.mainSection .table-details .top-bar {
+    height: 49px;
+    padding: 0px 20px;
+}
+
+.mainSection .table-details .top-bar-two,
+.mainSection .table-details .top-bar-three {
+    padding: 0px 20px;
+}
+
+.mainSection .table-details .message-attachemnt {
+    margin-top: 64px;
+    padding: 0px 20px;
+
+}
+
+.CTA-mobile {
+    width: calc(76px - 28px);
+    height: calc(76px - 24px);
+    position: fixed;
+    bottom: 39px;
+    right: 26px;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+}
+
+/* utilt */
+.line-height-normal {
+    line-height: 1;
+}
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    margin: 0;
+}
+
+input[type='checkbox'] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    outline: none;
+    content: none;
+}
+
+input[type=checkbox]:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 12px;
+    color: transparent !important;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-weight: 400;
+    border: 1px solid #949494;
+    border-radius: 2px;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+input[type=checkbox].mx-0:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 12px;
+    color: transparent !important;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-weight: 400;
+    border: 1px solid #949494;
+    border-radius: 2px;
+    margin-right: 21px;
+    margin-left: 0px;
+}
+
+input[type=checkbox]:checked:before {
+    background: #F9B52E;
+    border: 1px solid #F9B52E;
+    color: white !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.show-mobile {
+    display: none;
+}
+
+.z-index-1 {
+    z-index: 1;
+}

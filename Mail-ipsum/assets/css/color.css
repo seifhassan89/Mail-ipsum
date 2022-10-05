@@ -1,0 +1,62 @@
+.main-color{
+    color: #38A7A7;
+}
+
+.bg-main-color{
+    background-color: #38A7A7;
+}
+
+.main-color-dark{
+    color: #248C8C;
+}
+
+.bg-main-color-dark{
+    background-color: #248C8C;
+}
+
+.main-color-light{
+    color: #E4F5F5;
+}
+
+.bg-main-color-light{
+    background-color: #E4F5F5;
+}
+
+.sub-color{
+    color: #F9B52E;
+}
+
+.bg-sub-color{
+    background-color: #F9B52E;
+}
+
+.white-color{
+    color: #fff;
+}
+
+.bg-white-color{
+    background-color: #fff;
+}
+
+.gray-text-color{
+    color: #585858;
+}
+
+.ng-gray-text-color{
+    background-color: #585858;
+}
+
+.black-text-color{
+    color: #000;
+}
+
+.bg-black-text-color{
+    background-color: #000;
+}
+
+.text-demed{
+    color: #9E9E9E;
+}
+.text-simi-demed{
+    color: #6F6F6F;
+}
